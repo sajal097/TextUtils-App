@@ -7,8 +7,7 @@ import Alert from './Component/Alert';
 import {
   BrowserRouter as Router,
   Routes,//earlier Switches and now  exact keyword dropped
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 function App() {

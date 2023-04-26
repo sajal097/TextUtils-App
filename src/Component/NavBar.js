@@ -3,15 +3,6 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 export default function NavBar(props) {
   
-let handleGreen = ()=>{
-  props.setMode('green');
-}
-let handleRed = ()=>{
-  props.setMode('red');
-}
-let handlePurple = ()=>{
-  props.setMode('purple');
-}
   return (
     <>
       <nav
